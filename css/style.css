@@ -14,7 +14,7 @@ body{
 }
 
 header{
-  background:#092c79;
+  background:#2f2f2f;
   color: #ffffff;
   padding-top: 30px;
   min-height:70px;
@@ -58,7 +58,10 @@ header a:hover{
 
 #showcase{
   min-height: 600px;
-  background:url('../imgs/website-design-background.png') no-repeat 0 -450px;
+  image-orientation: center;
+  background:url('../imgs/2109.jpg') no-repeat center;
+  width: 100%;
+  height:auto;
   text-align: center;
   color: #ffffff;
 
@@ -85,11 +88,39 @@ header a:hover{
   width: 30%;
   padding: 10px;
 }
+#projects .project img{
+  width: 80px;
+  height: 70px;
+}
 
 footer{
   padding: 20px;
   margin-top: 20px;
   text-align: center;
   color:#ffffff;
-  background-color: #e8491d;
+  background-color: #2f2f2f;
+}
+footer a{
+  color: #ffffff;
+}
+
+footer a:hover{
+  color:#e8491d;
+
+}
+
+
+@media(max-width: 768px){
+
+  header nav, header nav li, #showcase{
+    float:none;
+    text-align:center;
+    width: 100%;
+  }
+
+  header{
+    padding: 20px;
+  }
+
+
 }
