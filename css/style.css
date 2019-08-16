@@ -1,114 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
-  font: 15px/1.5 Arial, Helvetica, sans-serif;
-  padding: 0;
-  margin: 0;
-  background-color: #f4f4f4;
+  min-height: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
 
-}
-
-.container{
-  width: 80%;
   margin: auto;
-  overflow: hidden;
+  background-color: #2f2f2f;
 
 }
 
-header{
-  background:#2f2f2f;
-  color: #ffffff;
-  padding-top: 30px;
-  min-height:70px;
-  border-bottom:#e8491d 3px solid;
-
-}
-
-header a{
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-header ul{
-  margin: 0;
-  padding: 0;
-}
-
-header li{
-  float: left;
-  display: inline;
-  padding: 0 20px 0 20px;
-}
-
-header nav{
-  float:right;
-  margin-top: 30px;
-}
-
-header .highlight, header .current a{
-  color: #e8491d;
-  font-weight: bold;
-
-}
-
-header a:hover{
-  color:#cccccc;
-  font-weight:bold;
-}
-
-#showcase{
-  min-height: 600px;
-  image-orientation: center;
-  background:url('../imgs/2109.jpg') no-repeat center;
-  width: 100%;
-  height:auto;
+.content-container{
+  padding-top: 20vh;
   text-align: center;
-  color: #ffffff;
+}
+
+.title-name{
+  font-size: 4rem;
+  padding-bottom: 3rem;
+}
+
+.sub-header{
+
+  font-size: 1.5rem;
+  padding: 2vh;
 
 }
 
-#showcase h1{
-  margin-top:125px;
-  font-size:55px;
+.typed-text{
+font-size: 1.5rem;
+padding-bottom: 3rem;
 }
 
-#showcase p{
-  font-size: 27px;
-}
-
-#projects{
-
-  margin-top: 20px;
-  min-height: 400px;
+a{
+text-decoration: none;
+color: #ffffff;
 
 }
-#projects .project{
-  float:left;
-  text-align: center;
-  width: 30%;
-  padding: 10px;
-}
-#projects .project img{
-  width: 80px;
-  height: 70px;
+
+a:hover{
+  color:#e8491d;
+  cursor: pointer;
 }
 
 footer{
   padding: 20px;
-  margin-top: 20px;
+  margin-top: -1px;
   text-align: center;
   color:#ffffff;
   background-color: #2f2f2f;
 }
-footer a{
-  color: #ffffff;
-}
-
-footer a:hover{
-  color:#e8491d;
-
-}
-
 
 @media(max-width: 768px){
 
