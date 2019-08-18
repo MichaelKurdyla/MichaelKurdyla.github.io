@@ -64,7 +64,8 @@ footer{
 
 @media(max-width: 768px){
 
-  header nav, header nav li, #showcase{
+  body{
+    height: 100vh;
     float:none;
     text-align:center;
     width: 100%;
