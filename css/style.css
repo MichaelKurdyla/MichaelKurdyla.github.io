@@ -21,6 +21,9 @@ body{
   text-align: center;
 }
 
+.content-container i{
+  padding: 0 .5rem 0 .5rem;
+}
 .title-name{
   font-size: 4rem;
   padding-bottom: 3rem;
@@ -32,7 +35,9 @@ body{
   padding: 2vh;
 
 }
-
+#last-name{
+  color:#e8491d;
+}
 .typed-text{
 font-size: 1.5rem;
 padding-bottom: 3rem;
