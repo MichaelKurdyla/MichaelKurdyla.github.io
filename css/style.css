@@ -59,6 +59,7 @@ footer{
   margin-top: -1px;
   text-align: center;
   color:#ffffff;
+  font-family: 'Roboto', sans-serif;
   background-color: #2f2f2f;
 }
 
@@ -66,14 +67,24 @@ footer{
 
   body{
     height: 100vh;
-    float:none;
-    text-align:center;
     width: 100%;
   }
 
-  header{
-    padding: 20px;
+  .title-name{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
   }
 
+  .sub-header{
+
+    font-size: 1rem;
+    padding: 1vh;
+
+  }
+
+  .typed-text{
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
+  }
 
 }
