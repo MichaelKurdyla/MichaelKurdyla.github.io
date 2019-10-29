@@ -63,10 +63,7 @@ footer{
 
 }
 
-p{
-  text-align: center;
-  width: 33vh;
-}
+
 
 @media(max-width: 768px){
 
