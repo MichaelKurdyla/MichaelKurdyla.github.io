@@ -12,7 +12,7 @@ body{
   color: #ffffff;
 
   margin: auto;
-  background-color: #003366;
+  background-color: #92d2d3;
 
 }
 
@@ -41,7 +41,7 @@ body{
 
 }
 #last-name{
-  color:#e8491d;
+  color:#FFE7C7;
 }
 .typed-text{
 font-size: 1.5rem;
@@ -51,11 +51,10 @@ padding-bottom: 3rem;
 a{
 text-decoration: none;
 color: #ffffff;
-
 }
 
 a:hover{
-  color:#e8491d;
+  color:#CAF1DE;
   cursor: pointer;
 }
 
