@@ -67,7 +67,9 @@ footer{
 
 }
 
-
+.icon-links{
+  padding-top: 1.5rem;
+}
 
 @media(max-width: 768px){
 
@@ -87,7 +89,9 @@ footer{
     padding: 1vh;
 
   }
-
+  .desktop-content{
+    display:none;
+  }
   .typed-text{
   font-size: 1rem;
   padding-bottom: 1.5rem;
