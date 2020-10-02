@@ -10,17 +10,19 @@ body{
   min-height: 100%;
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
-
   margin: auto;
-  background-color: #92d2d3;
-
+  background-color: #008080;
 }
 
 .content-container{
   padding-top: 20vh;
   text-align: center;
+  justify-content: center;
 }
-
+.text {
+  margin: auto;
+  width: 35%;
+}
 .content-container i{
   padding: 0 .5rem 0 .5rem;
 }
